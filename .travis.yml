@@ -2,9 +2,6 @@
 dist: xenial
 language: python
 python:
-  - "2.6"
-  - "2.7"
-  - "3.3"
   - "3.4"
   - "3.5"
   - "3.5-dev"
@@ -16,3 +13,5 @@ python:
 
 install:
   - pip install -r requirements.txt
+env:
+  - TELEGRAM_TOKEN="123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"

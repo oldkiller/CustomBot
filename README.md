@@ -1,6 +1,8 @@
 # CustomBot
 
-Моя реализация бота с поддержкой плагинов.
+Моя реализация бота для Telegram с поддержкой плагинов (На базе данного механизма из Python 3.7).
+
+[![Build Status](https://travis-ci.com/oldkiller/CustomBot.svg?branch=master)](https://travis-ci.com/oldkiller/CustomBot)
 
 ---------------------------------------
 
