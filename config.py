@@ -10,3 +10,6 @@ else:
 
 # heroku url
 url = ""
+
+# For running on local machine
+local_run = False
