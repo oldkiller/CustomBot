@@ -1,5 +1,6 @@
 from . import plugin, bot
 
+
 @plugin
 @bot.message_handler(commands=["echo"])
 def echo(msg):

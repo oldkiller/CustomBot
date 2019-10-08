@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Control panel</title>
+</head>
+<body>
+
+<div align="center">
+    <div aria-label="Remove webhook">
+        <form action="remove_webhook" method="post">
+            <b>Enter password for remove webhook</b><br>
+            <input type="password" name="password"><br>
+            <input type="submit"><br>
+        </form>
+    </div>
+    <div>
+        <br>
+        <form action="set_webhook" method="post">
+            <b>Press button to set webhook</b><br>
+            <input type="submit"><br>
+        </form>
+    </div>
+    <div>
+        <br>
+        <form action="bot" method="post">
+            <b>Press the button to set updater</b><br>
+            <input type="submit"><br>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

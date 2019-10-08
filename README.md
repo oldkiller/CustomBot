@@ -1,5 +1,6 @@
 # CustomBot
 
+## Общее описание
 Моя реализация бота для Telegram с поддержкой плагинов (На базе данного механизма из Python 3.7).
 
 [![Build Status](https://travis-ci.com/oldkiller/CustomBot.svg?branch=master)](https://travis-ci.com/oldkiller/CustomBot)
@@ -16,6 +17,6 @@ from . import plugin, bot
 
 @plugin
 @bot.message_handler(commands=["test"])
-def ids(msg):
+def tests(msg):
     bot.send_message(msg.chat.id, "test")
 ```
